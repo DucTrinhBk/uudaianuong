@@ -1,0 +1,12 @@
+const SERVER_DOMAIN = 'http://uudai.com:5000/';
+const SERVER_LOCATION = 'http://210.211.124.1:5000/Api/';
+export const OK = 200;
+export const ERROR = 400;
+export const MENU_STATE = 'Menu';
+export const HOME_STATE = 'Home';
+export const SEARCH_STATE = 'Search';
+export const CATEGORY_STATE = 'Category';
+export const TAG_STATE = 'Tags';
+export const DETAIL_STATE = 'Detail';
+export const CONFIG_STATE = 'Config';
+export const getApiUrl = url => SERVER_LOCATION + url;
